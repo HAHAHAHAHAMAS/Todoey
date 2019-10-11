@@ -24,10 +24,6 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="kO1-wt-Sfn" id="tRz-YR-gym"/>
-                            <outlet property="delegate" destination="kO1-wt-Sfn" id="1lP-sa-KMH"/>
-                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Todoey" id="WGR-ab-fgR">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Bog-Zb-1Xf">
@@ -37,9 +33,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="todoListTableView" destination="wST-0c-3jd" id="mtV-y1-e85"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vp6-VS-lRu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
